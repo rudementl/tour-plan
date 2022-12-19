@@ -1,0 +1,22 @@
+.policy {
+  display: flex;
+  justify-content: center;
+  // .policy__ul
+  padding-top: 102px;
+  padding-bottom: 46px;
+  &__content {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+  }
+
+  // .policy__link
+
+  &__link {
+    color: $lightColor;
+  }
+  &__img {
+    margin-left: auto;
+  }
+}
